@@ -28,6 +28,8 @@
     font-size: 1.2rem;
     line-height: 1.5;
     margin-right: 26px;
+    text-align: left;
+    padding: 1.2rem;
 }
 
 .delverButton {
@@ -39,4 +41,10 @@
     display: flex;
     margin: 1rem;
     font-size: 4rem;
+}
+
+.navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }

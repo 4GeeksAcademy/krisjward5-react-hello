@@ -15,14 +15,15 @@ const Home = () => {
 			<div className="text-center flex-container navigation">
 				<Navbar
 					navName1="Start Bootstrap"
-					navName2="Home"
-					navName3="About"
-					navName4="Services"
-					navName5="Contact"
-					navLink="https://4geeks.com/"
+					navName2="Hero Section"
+					navName3="Cards"
+					navName4="Footer"
+					navLink="#heroSection"
+					navLink2="#cardSection"
+					navLink3="#footerSection"
 				/>
 			</div>
-			<div className="flex-container daHero">
+			<div className="flex-container daHero" id="heroSection">
 				<Hero
 					heroTitle="Delver"
 					heroMainText="This deck is for baby brains. You play delver, you protect delver. All of the sudden you play the big fish. Wow how can you lose. You're out of cards???? easy. Cast Expresive Iteration. If you lose playing this deck you need to reconsider playing magic the gathering."
@@ -30,7 +31,7 @@ const Home = () => {
 					heroButtonLink="https://www.mtggoldfish.com/archetype/legacy-grixis-tempo#paper"
 				/>
 			</div>
-			<div className="text-center daCardz flex-container">
+			<div className="text-center daCardz flex-container" id="cardSection">
 				<Card
 					imageUrl="https://cdn.cardsrealm.com/images/cartas/pmh2-modern-horizons-2-promos/EN/crop-med/murktide-regent-52p.jpeg?8150"
 					imageAltText="Text"
@@ -66,7 +67,7 @@ Delirium — As long as there are four or more card types among cards in your gr
 					callToActionUrl="https://scryfall.com/card/mh2/121/dragons-rage-channeler"
 				/>
 			</div>
-			<div className="bg-dark text-light mt-3">
+			<div className="bg-dark text-light mt-3" id="footerSection">
 				<Footer></Footer>
 			</div>
 		</div>

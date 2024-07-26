@@ -9,6 +9,8 @@ export function Navbar(props) {
         navName4,
         navName5,
         navLink,
+        navLink2,
+        navLink3
     } = props;
 
     return (
@@ -25,10 +27,10 @@ export function Navbar(props) {
                                 <a className="nav-link" aria-current="page" href={navLink}>{navName2}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={navLink}>{navName3}</a>
+                                <a className="nav-link" href={navLink2}>{navName3}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={navLink}>{navName4}</a>
+                                <a className="nav-link" href={navLink3}>{navName4}</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href={navLink}>{navName5}</a>
