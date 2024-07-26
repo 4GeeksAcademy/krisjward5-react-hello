@@ -14,7 +14,7 @@ const Home = () => {
 		<div className="text-center website-container">
 			<div className="text-center flex-container navigation">
 				<Navbar
-					navTitle="Magic, The Gathering"
+					navTitle="Magic: The Gathering"
 					navLinks= {[
 						{
 							navurl: "#heroSection",
