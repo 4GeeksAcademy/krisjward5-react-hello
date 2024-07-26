@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.daCardz {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.heroBoxCard {
+    margin-right: 8.2rem;
+    margin-left: 8.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.delver {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-right: 26px;
+}
+
+.delverButton {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.heroTitle {
+    display: flex;
+    margin: 1rem;
+    font-size: 4rem;
+}
