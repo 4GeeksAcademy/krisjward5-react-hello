@@ -14,13 +14,21 @@ const Home = () => {
 		<div className="text-center website-container">
 			<div className="text-center flex-container navigation">
 				<Navbar
-					navName1="Start Bootstrap"
-					navName2="Hero Section"
-					navName3="Cards"
-					navName4="Footer"
-					navLink="#heroSection"
-					navLink2="#cardSection"
-					navLink3="#footerSection"
+					navTitle="Magic, The Gathering"
+					navLinks= {[
+						{
+							navurl: "#heroSection",
+							navlabel: "Hero Section", 
+						},
+						{
+							navurl: "#cardSection",
+							navlabel: "Cards",
+						},
+						{
+							navurl: "#footerSection",
+							navlabel: "Footer",
+						},
+					 ]}
 				/>
 			</div>
 			<div className="flex-container daHero" id="heroSection">
